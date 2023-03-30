@@ -1,0 +1,284 @@
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+:root {
+  --h2: rgb(88, 88, 88);
+  --p: rgb(182, 182, 182);
+  --spacing: 25px;
+  --btn1: rgb(0, 156, 156);
+  --btn1border: rgb(0, 170, 170);
+  --btn2: rgb(95, 57, 184);
+  --btn2border: rgb(60, 57, 184);
+  --setPadding: 30px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Bai Jamjuree";
+}
+main {
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container > * {
+  margin: 15px;
+}
+main img {
+  padding-top: 70px;
+  width: 50px;
+  align-self: center;
+}
+
+main .buttons {
+  /* background-color: blueviolet; */
+  text-align: center;
+  margin-bottom: 15px;
+}
+main button {
+  margin-left: 5px;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+h1 {
+  color: var(--h2);
+}
+main p {
+  color: var(--p);
+  line-height: var(--spacing);
+  padding-bottom: 10px;
+}
+main .buttons :nth-child(1) {
+  background-color: var(--btn1);
+  border-bottom: solid 3px var(--btn1border);
+}
+main .buttons :nth-child(2) {
+  background-color: var(--btn2);
+  border-bottom: solid 3px var(--btn2border);
+}
+.sec1 {
+  padding-top: var(--setPadding);
+  padding-bottom: var(--setPadding);
+  /* background-color: red; */
+  text-align: center;
+  padding: 20px;
+  color: var(--h2);
+}
+.sec1 p {
+  /* white-space: pre; */
+  color: var(--p);
+  font-size: 15px;
+  line-height: var(--spacing);
+}
+.image-computer {
+  width: 60%;
+}
+.sec2 .container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-top: 25px;
+}
+.sec2 .sideParagraph {
+  padding-left: 10px;
+  font-size: 15px;
+  padding-top: 25px;
+  /* background-color: rebeccapurple; */
+}
+.sec2 h2 {
+  font-size: 20px;
+  color: var(--h2);
+}
+.sec2 p {
+  color: var(--p);
+  line-height: var(--spacing);
+}
+.sec3 img {
+  width: 70%;
+  align-self: center;
+  padding-top: 30px;
+}
+.sec3 h2 {
+  font-size: 30px;
+  color: var(--h2);
+}
+.sec3 p {
+  color: var(--p);
+  line-height: var(--spacing);
+}
+.sec3 {
+  padding-top: var(--setPadding);
+  padding-bottom: var(--setPadding);
+}
+.sec4 .container h2:nth-child(1) {
+  font-size: 30px;
+  color: var(--h2);
+}
+.sec4 {
+  padding-top: var(--setPadding);
+  padding-bottom: var(--setPadding);
+}
+.sec4 .container .cards {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+.sec4 .container .cards .card {
+  text-align: center;
+}
+.sec4 h2 {
+  color: var(--h2);
+}
+.sec4 p {
+  color: var(--p);
+  line-height: var(--spacing);
+}
+.sec5 {
+  padding-top: var(--setPadding);
+  padding-bottom: var(--setPadding);
+}
+.sec5 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sec5 .container .logo {
+  padding-left: 50px;
+}
+.sec6 {
+  padding-top: var(--setPadding);
+  padding-bottom: var(--setPadding);
+  text-align: center;
+}
+.sec6 h2 {
+  color: var(--h2);
+}
+.sec6 p {
+  color: var(--p);
+}
+.sec6 p {
+  padding-bottom: 10px;
+}
+
+.sec6 button {
+  margin-left: 5px;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.sec6 .buttons :nth-child(1) {
+  background-color: var(--btn1);
+  border-bottom: solid 3px var(--btn1border);
+}
+.sec6 .buttons :nth-child(2) {
+  background-color: var(--btn2);
+  border-bottom: solid 3px var(--btn2border);
+}
+footer {
+  background-color: #e0dfdf;
+}
+footer img {
+  width: 50px;
+  cursor: pointer;
+}
+footer .icon {
+  width: 40px;
+  height: 40px;
+}
+ul {
+  list-style-type: none;
+  /* background-color: aquamarine; */
+  width: 30%;
+}
+footer li {
+  display: inline;
+  text-align: left;
+  margin: 20px;
+}
+footer li a:hover {
+  color: var(--btn1);
+}
+li a {
+  text-decoration: none;
+}
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .sec2 .container {
+    flex-direction: column;
+  }
+  .sec2 .sideParagraph {
+    padding-left: 0px;
+  }
+  .sec1 {
+    padding: 0;
+  }
+  .container > * {
+    margin-right: 10px;
+  }
+  .sec2 .container {
+    text-align: center;
+    flex-direction: column;
+  }
+  .sec2 img{
+    padding-left: 60px;
+  }
+  .sec4 .container .cards {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .sec5 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-top: 20px; */
+  }
+  .sec5 .container .logo {
+    padding-left: 10px;
+    margin-top: 40px;
+  }
+  footer .container {
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer li {
+    display: block;
+    text-align: left;
+    margin: 0px;
+  }
+}
